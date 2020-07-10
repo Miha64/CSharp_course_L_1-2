@@ -3,18 +3,26 @@
     padding: 0;
 }
 
+.header_top{
+    display: flex;
+}
+
+.h1_main{
+    margin-left: 50px;
+    margin-top: 35px;
+}
 .container {
     width: 1366px;
     margin: 0 auto;
 }
 
 .client {
-    display: flex;
+   /* display: flex;*/
 }
 
 
 .menu ul {
-    background: #D4E7EE;
+    /*background: #D4E7EE;*/
     overflow: hidden;
     padding: 0;
 }
@@ -26,12 +34,11 @@
     text-align: center;
     list-style-type: none;
     border: 1px solid lightgray;
-    /* display: inline-block;*/
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 10px;
     margin-bottom: 5px;
+    margin-right: 10px;
 }
 
 
@@ -43,6 +50,7 @@
 
 .menu li a:hover {
     color: darkorange;
+    
 }
 
 .menu li a:active {
@@ -50,7 +58,7 @@
 }
 
 .main {
-    border-left: 10px solid;
+   /* border-left: 10px solid;*/
 }
 
 .dir_product {
@@ -58,14 +66,15 @@
     border: 1px solid lightblue;
     margin-right: 10px;
     margin-bottom: 20px;
-    height: 225px;
-
+    height: 490px;
 }
 
 .btn-pnl {
     /*display: flex;
     flex-direction: row;
     */
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .buttons {
@@ -74,7 +83,7 @@
 }
 
 .buttons ul {
-    background: #D4E7EE;
+    /*background: #D4E7EE;*/
     overflow: hidden;
     padding: 0;
     /*display: flex;
@@ -89,10 +98,7 @@
     list-style-type: none;
     border: 1px solid lightgray;
 
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
     margin-bottom: 5px;
 }
 
@@ -105,8 +111,49 @@
 
 .buttons li a:hover {
     color: darkorange;
+
 }
 
 .buttons li a:active {
     color: coral;
+}
+/*
+.button:hover{
+	border: 1px #a8a solid;
+	background: #ccc;
+}
+*/
+.submenu{
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+}
+.dir_pic{
+    width: 270px;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.dir_product a{
+    text-decoration: none;
+}
+
+.product-price{
+    margin-left: 170px;
+    font-weight: bold;
+}
+.footer{
+    clear: both;
+    border: 1px solid darkgray;
+    background-color: lightgray;
+    text-align: left;
+}
+.img_logo{
+    width: 250px;
+}
+.fix-frame{
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 700px;
 }

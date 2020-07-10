@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Магазин фототехники PhotoTech</title>
-    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="style/style.css">
 
 </head>
 
@@ -13,63 +13,350 @@
         <div class="header">
             <div class="header_top">
                 <div class="logo">
-                    <img class="img_logo" src="img/PhotoTech.png" alt="">
+                    <a href="#"><img class="img_logo" src="img/PhotoTech.png" alt=""></a>
                 </div>
 
                 <h1 class="h1_main">Магазин фототехники PhotoTech </h1>
-                <hr>
+                <!-- <hr> -->
             </div>
 
 
         </div>
         <div class="client">
+            <div class="fix-frame">
+                <img class="img_logo" src="img/sertif.png" alt="">
+            </div>
             <!--  <div class="d_menu">-->
             <ul class="menu">
-                <li><a href="#">Главная</a> </li>
-                <li><a href="directory.html">Каталог</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="#">Главная</a>
+                    <ul class="submenu">
+                        <li><a href="#">sub1</a></li>
+                        <li><a href="#">sub2</a></li>
+                        <li><a href="#">sub3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Каталог</a></li><!-- directory.html" -->
+                <li><a href="#">Контакты</a></li><!-- contacts.html" -->
             </ul>
             <!-- </div> -->
             <div class="products">
-                <div class="dir_product"><a href="index1.html">
+                <div class="dir_product"><a href="#">
+                        <!-- "index1.html" -->
                         <p class="product_name">
                             Беззеркальный фотоаппарат Canon EOS Ra Body
                         </p>
-                        <img class="dir_pic" src="img/canonEOS_Ra_body_small.jpg" alt="">
+                        <img class="dir_pic" src="img/canonEOS_Ra_body_big.jpg" alt="">
 
                     </a>
                     <p class="product-price">4420,00 р.</p>
                     <div class="btn-pnl">
                         <ul class="buttons">
-                            <li><a href="#">+</a> </li>
-                            <li><a href="#">-</a></li>
+                            <li>
+                                <div class="button">
+                                    <a href="#">В корзину</a>
+                                </div>
+                            </li>
+                            <li><div class="button"><a href="#">---</a></div></li>
 
                         </ul>
                     </div>
-
+                    <div class="tab-description">
+                        <h3 class="heading">Характеристики</h3>
+                        <h4>Основные</h4>
+                        <table class="charact_table">
+                            <tr>
+                                <td class="title_col">Тип камеры: </td>
+                                <td><b>беззеркальная камера</b></td>
+                            </tr>
+                            <tr>
+                                <td>Комплект:</td>
+                                <td><b>без объектива (body)</b></td>
+                            </tr>
+                            <tr>
+                                <td>Тип матрицы: </td>
+                                <td><b>CMOS</b><br></td>
+                            </tr>
+                            <tr>
+                                <td>Размер экрана: </td>
+                                <td><b>3.15 ''</b></td>
+                            </tr>
+                            <tr>
+                                <td> Количество точек матрицы: </td>
+                                <td><b>30.3 Мп</b></td>
+                            </tr>
+                            <tr>
+                                <td>Физический размер матрицы: </td>
+                                <td><b>Full frame</b></td>
+                            </tr>
+                            <tr>
+                                <td> Максимальное разрешение видео: </td>
+                                <td><b>3840x2160 (30 кадров/с)</b></td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
 
-                <div class="dir_product"><a href="index2.html">
+                <div class="dir_product"><a href="#">
+                        <!-- "index2.html"> -->
                         <p class="product_name">
                             Беззеркальный фотоаппарат Sony a7S II Body EU</p>
-                        <img class="dir_pic" src="img/Sony_a7S_II_Body_EU_small.jpg" alt="">
-                        <p class="product-price">2599,00 р.</p>
+                        <img class="dir_pic" src="img/Sony_a7S_II_Body_EU_big.jpg" alt="">
+
                     </a>
+                    <p class="product-price">2599,00 р.</p>
+                    <div class="btn-pnl">
+                        <ul class="buttons">
+                            <li><a href="#">В корзину</a> </li>
+                            <li><a href="#">---</a></li>
+
+                        </ul>
+                    </div>
+                    <h3 class="heading">Характеристики</h3>
+                    <h4>Основные</h4>
+                    <table class="charact_table">
+                        <tr>
+                            <td class="title_col">Тип камеры: </td>
+                            <td><b>беззеркальная камера</b></td>
+                        </tr>
+                        <tr>
+                            <td>Комплект: </td>
+                            <td><b>без объектива (body)</b></td>
+                        </tr>
+                        <tr>
+                            <td>Тип матрицы: </td>
+                            <td><b>CMOS</b></td>
+                        </tr>
+                        <tr>
+                            <td>Размер экрана: </td>
+                            <td><b>3 ''</b></td>
+                        </tr>
+                        <tr>
+                            <td>Количество точек матрицы:>
+                            </td>
+                            <td><b>12.2 Мп</b></td>
+                        </tr>
+                        <tr>
+                            <td>Физический размер матрицы: </td>
+                            <td><b>Full frame</b></td>
+                        </tr>
+                        <tr>
+                            <td>Максимальное разрешение видео: </td>
+                            <td> <b>3840x2160 (30 кадров/с)</b></td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="dir_product"><a href="index3.html">
+                <div class="dir_product"><a href="#">
+                        <!--"index3.html">  -->
                         <p class="product_name">
                             Беззеркальный фотоаппарат Nikon Z6 Body + переходник FTZ
                         </p>
-                        <img class="dir_pic" src="img/Nikon_Z6_Body_small.jpg" alt="">
-                        <p class="product-price">4490,00 р.</p>
+                        <img class="dir_pic" src="img/Nikon_Z6_Body_big.jpg" alt="">
+
                     </a>
+                    <p class="product-price">4490,00 р.</p>
+                    <div class="btn-pnl">
+                        <ul class="buttons">
+                            <li><a href="#">В корзину</a> </li>
+                            <li><a href="#">---</a></li>
+                        </ul>
+                    </div>
+                    <h3 class="heading">Характеристики</h3>
+                    <h4>Основные</h4>
+                    <table class="charact_table">
+                        <tr>
+                            <td class="title_col">Тип камеры: </td>
+                            <td><b>беззеркальная камера</b></td>
+                        </tr>
+                        <tr>
+                            <td>Комплект: </td>
+                            <td><b>без объектива (body)</b></td>
+                        </tr>
+                        <tr>
+                            <td>Тип матрицы: </td>
+                            <td><b>CMOS</b></td>
+                        </tr>
+                        <tr>
+                            <td>Размер экрана: </td>
+                            <td><b>3.2 ''</b></td>
+                        </tr>
+                        <tr>
+                            <td>Количество точек матрицы: </td>
+                            <td><b>24.5 Мп</b></td>
+                        </tr>
+                        <tr>
+                            <td>Физический размер матрицы: </td>
+                            <td><b>Full frame</b></td>
+                        </tr>
+                        <tr>
+                            <td>Максимальное разрешение видео: </td>
+                            <td><b>3840x2160 (30 кадров/с)</b></td>
+                        </tr>
+                    </table>
+
                 </div>
+                <!--  -->
+                <div class="dir_product"><a href="#">
+                        <!-- "index1.html" -->
+                        <p class="product_name">
+                            Беззеркальный фотоаппарат Canon EOS Ra Body
+                        </p>
+                        <img class="dir_pic" src="img/canonEOS_Ra_body_big.jpg" alt="">
+
+                    </a>
+                    <p class="product-price">4420,00 р.</p>
+                    <div class="btn-pnl">
+                        <ul class="buttons">
+                            <li><a href="#">В корзину</a> </li>
+                            <li><a href="#">---</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-description">
+                        <h3 class="heading">Характеристики</h3>
+                        <h4>Основные</h4>
+                        <table class="charact_table">
+                            <tr>
+                                <td class="title_col">Тип камеры: </td>
+                                <td><b>беззеркальная камера</b></td>
+                            </tr>
+                            <tr>
+                                <td>Комплект:</td>
+                                <td><b>без объектива (body)</b></td>
+                            </tr>
+                            <tr>
+                                <td>Тип матрицы: </td>
+                                <td><b>CMOS</b><br></td>
+                            </tr>
+                            <tr>
+                                <td>Размер экрана: </td>
+                                <td><b>3.15 ''</b></td>
+                            </tr>
+                            <tr>
+                                <td> Количество точек матрицы: </td>
+                                <td><b>30.3 Мп</b></td>
+                            </tr>
+                            <tr>
+                                <td>Физический размер матрицы: </td>
+                                <td><b>Full frame</b></td>
+                            </tr>
+                            <tr>
+                                <td> Максимальное разрешение видео: </td>
+                                <td><b>3840x2160 (30 кадров/с)</b></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="dir_product"><a href="#">
+                        <!-- "index2.html"> -->
+                        <p class="product_name">
+                            Беззеркальный фотоаппарат Sony a7S II Body EU</p>
+                        <img class="dir_pic" src="img/Sony_a7S_II_Body_EU_big.jpg" alt="">
+
+                    </a>
+                    <p class="product-price">2599,00 р.</p>
+                    <div class="btn-pnl">
+                        <ul class="buttons">
+                            <li>
+                                <div class="button">
+                                    <a href="#">В корзину</a>
+                                </div>
+                            </li>
+                            <li><a href="#">---</a></li>
+
+                        </ul>
+                    </div>
+                    <h3 class="heading">Характеристики</h3>
+                    <h4>Основные</h4>
+                    <table class="charact_table">
+                        <tr>
+                            <td class="title_col">Тип камеры: </td>
+                            <td><b>беззеркальная камера</b></td>
+                        </tr>
+                        <tr>
+                            <td>Комплект: </td>
+                            <td><b>без объектива (body)</b></td>
+                        </tr>
+                        <tr>
+                            <td>Тип матрицы: </td>
+                            <td><b>CMOS</b></td>
+                        </tr>
+                        <tr>
+                            <td>Размер экрана: </td>
+                            <td><b>3 ''</b></td>
+                        </tr>
+                        <tr>
+                            <td>Количество точек матрицы:>
+                            </td>
+                            <td><b>12.2 Мп</b></td>
+                        </tr>
+                        <tr>
+                            <td>Физический размер матрицы: </td>
+                            <td><b>Full frame</b></td>
+                        </tr>
+                        <tr>
+                            <td>Максимальное разрешение видео: </td>
+                            <td> <b>3840x2160 (30 кадров/с)</b></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="dir_product"><a href="#">
+                        <!--"index3.html">  -->
+                        <p class="product_name">
+                            Беззеркальный фотоаппарат Nikon Z6 Body + переходник FTZ
+                        </p>
+                        <img class="dir_pic" src="img/Nikon_Z6_Body_big.jpg" alt="">
+
+                    </a>
+                    <p class="product-price">4490,00 р.</p>
+                    <div class="btn-pnl">
+                        <ul class="buttons">
+                            <li><a href="#">В корзину</a> </li>
+                            <li><a href="#">---</a></li>
+
+                        </ul>
+                    </div>
+                    <h3 class="heading">Характеристики</h3>
+                    <h4>Основные</h4>
+                    <table class="charact_table">
+                        <tr>
+                            <td class="title_col">Тип камеры: </td>
+                            <td><b>беззеркальная камера</b></td>
+                        </tr>
+                        <tr>
+                            <td>Комплект: </td>
+                            <td><b>без объектива (body)</b></td>
+                        </tr>
+                        <tr>
+                            <td>Тип матрицы: </td>
+                            <td><b>CMOS</b></td>
+                        </tr>
+                        <tr>
+                            <td>Размер экрана: </td>
+                            <td><b>3.2 ''</b></td>
+                        </tr>
+                        <tr>
+                            <td>Количество точек матрицы: </td>
+                            <td><b>24.5 Мп</b></td>
+                        </tr>
+                        <tr>
+                            <td>Физический размер матрицы: </td>
+                            <td><b>Full frame</b></td>
+                        </tr>
+                        <tr>
+                            <td>Максимальное разрешение видео: </td>
+                            <td><b>3840x2160 (30 кадров/с)</b></td>
+                        </tr>
+                    </table>
+
+                </div>
+                <!--  -->
             </div>
 
         </div>
 
         <div class="footer">
-            <hr>
+            <br>
             <p class="footer_text">&copy; Все права защищены</p>
         </div>
     </div>
