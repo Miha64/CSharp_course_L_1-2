@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.client {
+    display: flex;
+}
+
+
+.menu ul {
+    background: #D4E7EE;
+    overflow: hidden;
+    padding: 0;
+}
+
+.menu li {
+    width: 100px;
+    height: 22px;
+    font-size: 16px;
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid lightgray;
+    /* display: inline-block;*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
+}
+
+
+.menu li a {
+    color: #8B00FF;
+    text-decoration: none;
+    /* без подчеркивания */
+}
+
+.menu li a:hover {
+    color: darkorange;
+}
+
+.menu li a:active {
+    color: coral;
+}
+
+.main {
+    border-left: 10px solid;
+}
+
+.dir_product {
+    float: left;
+    border: 1px solid lightblue;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height: 225px;
+
+}
+
+.btn-pnl {
+    /*display: flex;
+    flex-direction: row;
+    */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons ul {
+    background: #D4E7EE;
+    overflow: hidden;
+    padding: 0;
+    /*display: flex;
+    justify-content: center;*/
+}
+
+.buttons li {
+    width: 100px;
+    height: 22px;
+    font-size: 16px;
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid lightgray;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
+}
+
+
+.buttons li a {
+    color: #8B00FF;
+    text-decoration: none;
+    /* без подчеркивания */
+}
+
+.buttons li a:hover {
+    color: darkorange;
+}
+
+.buttons li a:active {
+    color: coral;
+}
